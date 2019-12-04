@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #666;
+	margin: 0px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+	font-weight:normal;
+}
+ul, li, ol, dl, dt, dd, form, p, img, a, h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.clear {
+	clear: both;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+/* --- Header --- */
+#header {
+	padding: 20px 0px;
+}
+#header .logo {
+	float: left;
+}
+#header ul {
+	float: right;
+}
+#header ul li:first-child {
+	margin-bottom: 12px;
+}
+/* --- Menu Bar --- */
+.menubar {
+	background: #c0392b;
+	text-align: center;
+	margin-bottom: 1px;
+	font-family: 'Oswald', sans-serif;
+}
+.menubar li {
+	display: inline-block;
+}
+.menubar li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 12px 15px;
+	display: block;
+	text-transform: uppercase;
+}
+.menubar li a:hover {
+	background: orange;
+}
+/* --- Slider --- */
+.slider {
+	margin-bottom: 50px;
+}
+.slider img {
+	width: 100%;
+}
+/* --- Welcome Text --- */
+.welcomeHome {
+	text-align: center;
+	margin-bottom: 35px;
+}
+.welcomeHome h1 {
+	color: #c0392b;
+	font-size: 40px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+.welcomeHome p {
+	line-height: 28px;
+	padding-bottom: 15px;
+}
+.welcomeHome p a {
+	background: #c0392b;
+	color: #fff;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	display: inline-block;
+	border-radius: 5px;
+}
+.welcomeHome p a:hover {
+	background: orange;
+}
+/* -- Info Section -- */
+.infosection {
+	margin-bottom: 50px;
+}
+.infosection li {
+	float: left;
+	width: 285px;
+	margin-right: 20px;
+}
+.infosection li:last-child {
+	margin-right: 0px;
+}
+.infosection li img {
+	width: 100%;
+	display: block;
+	margin-bottom: 1px;
+}
+.infosection li h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+	text-transform:uppercase;
+}
+.infosection li h3 a {
+	background: #c0392b;
+	color: #fff;
+	padding: 10px 0px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+.infosection li h3 a:hover {
+	background: orange;
+}
+.infosection li p {
+	line-height: 28px;
+}
+.infosection li p a {
+	color: #c0392b;
+}
+/* --- Photo Gallery --- */
+.gallery {
+	margin-bottom: 50px;
+}
+.gallery li {
+	float: left;
+	width: 25%;
+	position: relative;
+}
+.gallery li img {
+	width: 100%;
+	display: block;
+}
+.gallery li h3 {
+	background: rgba(0,0,0,0.5);
+	padding: 10px 0px;
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	text-transform: uppercase;
+	display: none;
+	text-align: center;
+}
+.gallery li:hover h3 {
+	display: block;
+}
+/* -- Social Media -- */
+.socialMedia{
+	margin-bottom:50px;
+}
+.socialMedia ul {
+	text-align: center;
+}
+.socialMedia ul li {
+	display: inline-block;
+	font-size: 60px;
+	margin: 0px 5px;
+}
+.socialMedia ul li a {
+	background: #c0392b;
+	width: 120px;
+	height: 120px;
+	display: block;
+	border-radius: 50%;
+	color: #fff;
+}
+.socialMedia ul li .outer {
+	display: table;
+}
+.socialMedia ul li .inner {
+	display: table-cell;
+	width: 120px;
+	height: 120px;
+	vertical-align: middle;
+}
+.socialMedia ul li:first-child a:hover {
+	background: #3b5998;
+}
+.socialMedia ul li:nth-child(2) a:hover {
+	background: #1da1f2;
+}
+.socialMedia ul li:nth-child(3) a:hover {
+	background: #dd4b39;
+}
+.socialMedia ul li:last-child a:hover {
+	background: #cd201f;
+}
+/* --- Bottom --- */
+.bottomSection{
+	background:#e1e1e1;
+	padding:50px 0px;
+}
+.bottomSection h3{
+	font-size:18px;
+	text-transform:uppercase;
+	padding-bottom:15px;
+}
+.bottomSection .block{
+	float:left;
+	width:585px;
+}
+.bottomSection .box{	
+	height:245px;
+	background:#fff;
+	padding:10px;
+}
+.footer{
+	color:#fff;
+	padding:10px 0px;
+	background:#c0392b;
+	text-align:center;
+}
+/* --- About Us Page --- */
+.abtPage{
+	padding:50px;
+}
